@@ -1,0 +1,26 @@
+{
+  "name": "flare-ui",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Modern React UI component library",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r run build",
+    "dev": "pnpm -r run dev",
+    "clean": "pnpm -r run clean",
+    "lint": "pnpm -r run lint",
+    "type-check": "pnpm -r run type-check"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.9.2"
+  },
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  }
+}
